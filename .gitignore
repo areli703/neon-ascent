@@ -1,0 +1,15 @@
+# Build artefacts.
+#
+# The built place file IS committed (build/NeonAscent.rbxl) so that anyone
+# can clone this repo and open a playable game in Roblox Studio without
+# installing the Rojo toolchain. It is the one deliberate exception.
+#
+# Everything else Rojo/Selene/rendering can regenerate stays out of git.
+
+*.rbxlx
+*.rbxm
+*.rbxmx
+sourcemap.json
+__pycache__/
+.DS_Store
+*.log

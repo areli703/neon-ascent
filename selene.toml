@@ -1,0 +1,8 @@
+std = "roblox"
+
+exclude = ["tests/**", "build/**"]
+
+[lints]
+# Roblox code frequently shadows these; not worth failing the build over.
+shadowing = "allow"
+multiple_statements = "allow"

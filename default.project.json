@@ -1,0 +1,57 @@
+{
+  "name": "NeonAscent",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": { "$path": "src/shared" }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": { "$path": "src/server" }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$properties": {
+        "CharacterWalkSpeed": 18,
+        "CharacterJumpPower": 54,
+        "CharacterUseJumpPower": true,
+        "EnableMouseLockOption": false,
+        "CameraMaxZoomDistance": 70,
+        "CameraMinZoomDistance": 7
+      },
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": { "$path": "src/client" }
+      }
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "Gravity": 170,
+        "StreamingEnabled": false,
+        "FallenPartsDestroyHeight": -1000
+      }
+    },
+
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Technology": "Future",
+        "GlobalShadows": true
+      }
+    },
+
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true,
+        "AmbientReverb": "Cave"
+      }
+    }
+  }
+}
